@@ -1,0 +1,53 @@
+
+.delete-wrapper{
+  .sure{
+    font-family: 'Exo', sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 21px;
+  margin-top: 31px;
+  color: #000000;
+  }
+  .delete{
+    font-family: 'Exo', sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 19px;
+  
+  
+  color: #000000;
+  }
+}
+.btn-group-product-delete{
+  display: flex;
+  width: 84%!important;
+  margin-top: 66px;
+  margin-bottom: 37px;
+  .cancel-btn{
+    font-family: 'Exo', sans-serif;
+font-style: normal;
+font-weight: bold;
+font-size: 16px;
+line-height: 21px;
+border: none;
+background: none;
+margin-right: 2.5rem;
+color: #2837CD;
+  }
+  .save-btn{
+    font-family: 'Exo', sans-serif;
+font-style: normal;
+    background: #2837CD;
+    color: #FFFFFF;
+    padding: 10px 28px;
+    border: none;
+    border-radius: 2px;
+    font-weight: 600;
+  }
+}
+.delete-btn{
+  background-color: none;
+  border: none;
+}

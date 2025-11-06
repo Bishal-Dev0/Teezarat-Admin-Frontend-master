@@ -1,0 +1,52 @@
+.top-download-btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@media screen and (max-width: 470px) {
+  .top-download-btn {
+    display: none !important;
+  }
+  .top-name {
+    justify-content: center !important;
+    align-items: center !important;
+  }
+}
+
+.download-sec {
+  p {
+    margin-right: 3rem;
+    margin-bottom: 0;
+    text-align: justify;
+  }
+  img {
+    margin-left: 3rem;
+  }
+}
+
+@media screen and (max-width: 992px) {
+  .custom-carousel {
+    height: 18rem;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .custom-carousel {
+    height: 12rem;
+  }
+}
+
+@media screen and (max-width: 535px) {
+  .download-sec {
+    position: static !important;
+    margin-top: 2rem;
+    p {
+      margin-right: 0;
+      margin-bottom: 0;
+    }
+    img {
+      margin-left: 0;
+    }
+  }
+}
