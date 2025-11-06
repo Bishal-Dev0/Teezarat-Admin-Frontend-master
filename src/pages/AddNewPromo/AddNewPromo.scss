@@ -1,0 +1,86 @@
+.product_model {
+  padding: 15px;
+  margin: 0px 30px;
+  .up_img {
+    height: 129px;
+    width: 138px;
+  }
+  .product_span {
+    margin-left: 95px;
+    margin-top: 39px;
+    h4 {
+      margin-bottom: 10px;
+    }
+    label {
+      display: inline-block;
+      color: black;
+      padding: 1rem;
+      font-family: 'sans-serif';
+      border-radius: 0.3rem;
+      cursor: pointer;
+      border: 1px solid gray;
+    }
+  }
+  .stock-col {
+    margin-left: -10px;
+    margin-top: 39px;
+    .input-form {
+      width: 67% !important;
+    }
+  }
+  .product-col {
+    .input-product-coupon {
+      width: 53%;
+    }
+    .input-product-coupon2 {
+      width: 94%;
+    }
+  }
+
+  .product-select {
+    .input-select-coupon1 {
+      width: 94%;
+    }
+    .select2 {
+      margin-left: -5px;
+      .input-select-coupon2 {
+        width: 94%;
+      }
+    }
+  }
+  .btn-group-product {
+    display: flex;
+    width: 84% !important;
+    .cancel-btn {
+      font-family: 'Exo', sans-serif;
+      font-style: normal;
+      font-weight: bold;
+      font-size: 16px;
+      line-height: 21px;
+      border: none;
+      background: none;
+      margin-right: 2.5rem;
+      color: #2837cd;
+    }
+    .save-btn {
+      font-family: 'Exo', sans-serif;
+      font-style: normal;
+      background: #2837cd;
+      color: #ffffff;
+      padding: 10px 28px;
+      border: none;
+      border-radius: 2px;
+      font-weight: 600;
+    }
+  }
+  .areaText-coupon {
+    width: 95%;
+  }
+}
+.ant-searchable-select {
+  .ant-select-show-search.ant-select:not(.ant-select-customize-input)
+    .ant-select-selector {
+    height: 38px !important;
+    border-radius: 4px !important;
+  }
+}

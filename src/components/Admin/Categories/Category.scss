@@ -1,0 +1,48 @@
+.category_wrapper {
+  .cate_name {
+    font-style: normal;
+    font-family: 'Exo', sans-serif;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 21px;
+    margin-left: 15px;
+    color: #000000;
+  }
+  .cate_img {
+    width: 32px;
+    height: 32px;
+  }
+  .edit_img {
+    height: 20px;
+    width: 23px;
+    cursor: pointer;
+    margin-left: auto;
+  }
+  .rightSidebar {
+    margin-top: 56px;
+    .subCate_part {
+      font-family: 'Exo', sans-serif;
+      font-style: normal;
+      margin-bottom: 15px;
+      font-weight: bold;
+      font-size: 18px;
+      line-height: 24px;
+      color: #000000;
+    }
+  }
+  .add_newBtn {
+    border: none;
+    width: 185px;
+    height: 40px;
+    color: #ffffff;
+    font-family: 'Exo', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 15px;
+    line-height: 20px;
+    background: #fe7f00;
+    border-radius: 8px;
+    margin: auto;
+    margin-top: 14px;
+  }
+}

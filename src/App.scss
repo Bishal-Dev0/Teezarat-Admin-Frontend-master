@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Exo:wght@400;500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans&family=Raleway&display=swap');
+body {
+  font-family: 'Exo', sans-serif;
+  padding: 0 !important;
+  margin: 0 !important;
+}
+
+.btn-primary {
+  background-color: #fe7f00 !important;
+  border: none !important;
+  outline: none !important;
+  border-radius: 8px !important;
+  font-weight: bold;
+  padding: 7px 20px !important;
+}
+
+.btn-primary:focus {
+  box-shadow: none !important;
+}
+
+.btn-primary:hover {
+  background-color: #e47200 !important;
+}
+
+.btn-outline-primary {
+  border: 2px solid #fe7f00 !important;
+  outline: none !important;
+  border-radius: 8px !important;
+  font-weight: bold;
+  color: #fe7f00;
+  background-color: white !important;
+}
+
+.btn-outline-primary:focus {
+  box-shadow: none !important;
+}
+
+.btn-outline-primary:hover {
+  background-color: #fe7f00 !important;
+}
+.delete-btn {
+  background-color: none;
+  border: none;
+  border-radius: 2px !important;
+  font-weight: bold;
+  padding: 7px 20px !important;
+}

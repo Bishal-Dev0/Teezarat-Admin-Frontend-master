@@ -1,0 +1,48 @@
+.breadcrumb {
+  padding-left: 0px !important;
+  background-color: #ffffff !important;
+}
+.custom-ant {
+  .ant-select-selector {
+    width: 20vw !important;
+  }
+}
+
+.upper {
+  margin: 15px 0px;
+  display: grid;
+  grid-template-columns: 2fr;
+  grid-gap: 12px;
+  h5 {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    color: #000000;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+  }
+  span {
+    display: block;
+    position: relative;
+    width: 100%;
+    height: 40px;
+    input {
+      width: 100%;
+      height: 100%;
+      outline: none;
+      background: #ffffff;
+      border: 1px solid #ababab;
+      box-sizing: border-box;
+      border-radius: 4px;
+      padding: 0 10px;
+    }
+    svg {
+      position: absolute;
+      top: 50%;
+      right: 10px;
+      transform: translateY(-50%);
+      color: #747474;
+      cursor: pointer;
+    }
+  }
+}

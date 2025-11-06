@@ -1,0 +1,77 @@
+.main-wrapped {
+  display: grid;
+  grid-template-columns: 1.5fr 1fr 2fr;
+  grid-gap: 5px;
+  align-items: center;
+  justify-items: center;
+  margin-top: 2rem;
+  h6 {
+    font-family: Exo;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 27px;
+    color: #000000;
+  }
+  .fees {
+    width: 450px;
+    // height: 50px;
+    font-family: 'Exo', sans-serif;
+    padding: 5px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 27px;
+    color: #000000;
+    background: #ffffff;
+    border: 1px solid #ababab;
+    box-sizing: border-box;
+    border-radius: 2px;
+    margin-left: 50px;
+    margin-right: 50px;
+    text-align: center;
+    span {
+      margin-top: 15px;
+    }
+  }
+  .dlb {
+    width: 230px;
+    border: none;
+    height: 40px;
+    font-family: 'Exo', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 21px;
+    text-align: center;
+
+    color: #ffffff;
+
+    background: #fe7f00;
+    border-radius: 8px;
+  }
+}
+.dlb2 {
+  width: 110px;
+  border: none;
+  height: 40px;
+  font-family: 'Exo', sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 21px;
+  text-align: center;
+
+  color: #ffffff;
+
+  background: #fe7f00;
+  border-radius: 8px;
+}
+.trash-btn {
+  opacity: 0.5;
+}
+
+.banner-wrapper:hover .trash-btn {
+  opacity: 1;
+  transition: all 1000ms ease;
+}
